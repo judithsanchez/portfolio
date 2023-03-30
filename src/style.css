@@ -20,7 +20,8 @@
   --shade-3: #009ba1;
   --shade-4: #48c2c8;
   --shade-5: #51d5c7;
-  --shade-6: #93f8b3;
+  --shade-6: #68e7c2;
+  --shade-7: #93f8b3;
 }
 
 #app {
@@ -81,7 +82,7 @@
 }
 
 .job-title {
-  color: var(--shade-6);
+  color: var(--shade-7);
   font-size: 3rem;
   font-weight: 500;
 }
@@ -90,4 +91,45 @@
   font-size: 1.6rem;
   line-height: 200%;
   margin-top: 4rem;
+}
+
+.projects-section {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 2.5rem;
+}
+
+.projects-intro {
+  font-size: 1.6rem;
+  line-height: 200%;
+  margin-top: 4.5rem;
+}
+
+.download-cv-button {
+  align-self: flex-end;
+  background-color: var(--shade-6);
+  padding: 1rem;
+  text-align: center;
+  margin: 3rem;
+}
+
+.download-cv-button p {
+  color: var(--shade-1);
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+
+.download-cv-button a {
+  text-decoration: none;
+}
+
+.cv {
+  color: var(--shade-1);
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.projects-section h3 {
+  font-size: 2.4rem;
+  font-weight: 100;
 }

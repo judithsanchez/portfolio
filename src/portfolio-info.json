@@ -4,6 +4,7 @@
   "jobTitle": "Full Stack Developer",
   "github": "https://github.com/judithsanchez",
   "linkedin": "https://www.linkedin.com/in/judithvsanchezc/",
+  "cv": "notengoporahora",
   "email": "judithv.sanchezc@gmail.com",
   "aboutMe": "As a tech enthusiast, I'm passionate about creating solutions through code. I have a diverse background that includes studying Physiotherapy and working as an online Spanish tutor. From that job, my pet project was born: Bocaditos de Español. I'd love for you to check it out!",
   "skills": [
@@ -38,10 +39,8 @@
     "Scrum",
     "UI/UX Design"
   ],
+  "projectsIntro": "Do you want to see my projects? You're already checking out one with this portfolio! But there's more to explore - keep scrolling down to discover what else I've been working on.",
   "projects": [
-    {
-      "intro": "Do you want to see my projects? You're already checking out one with this portfolio! But there's more to explore - keep scrolling down to discover what else I've been working on."
-    },
     {
       "title": "Bocaditos de Español",
       "url": "github.com/judithsanchez/bocaditosespanol",
