@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+
+  /* Background */
+  --main-background: #002f36;
+
+  /* Fonts */
+  --main-text-color: white;
+  --text-light-grey: #d1d1d1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+
+  /* Other colors */
+  --shade-1: #005158;
+  --shade-2: #00757b;
+  --shade-3: #009ba1;
+  --shade-4: #48c2c8;
+  --shade-5: #51d5c7;
+  --shade-6: #93f8b3;
+}
+
+#app {
+  margin: auto;
+  width: 414px;
+}
+
+.nav-bar {
+  background-color: var(--main-background);
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  /* padding: 15px 30px; */
+  padding: 1.5rem 3rem;
+  width: 100%;
+}
+
+.js-logo {
+  /* height: 29px;
+  width: 22px; */
+  height: 2.9rem;
+  width: 2.2rem;
+}
+
+.social-media-contact {
+  align-items: center;
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+.social-media-contact li {
+  cursor: pointer;
+}
+
+.linkedin-logo {
+  margin: 0 1rem;
+}
