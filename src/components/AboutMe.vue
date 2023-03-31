@@ -16,7 +16,7 @@
 </template>
 
 <script>
-import '../style.css';
+import '../assets/style.css';
 import portfolioInfo from '../portfolio-info.json';
 
 export default {
