@@ -10,25 +10,21 @@
 
     <h3>Projects</h3>
 
-    <!-- <div class="projects-list">
-      <project-info
-        v-for="(project, index) in projects"
-        :key="index"
-        :project="project"
-      ></project-info>
-    </div> -->
+    <div class="projects-list">
+      <project-info></project-info>
+    </div>
   </div>
 </template>
 
 <script>
 import '../assets/style.css';
 import portfolioInfo from '../portfolio-info.json';
-// import ProjectInfo from './ProjectInfo.vue';
+import ProjectInfo from './ProjectInfo.vue';
 
 export default {
-  // components: {
-  //   ProjectInfo,
-  // },
+  components: {
+    'project-info': ProjectInfo,
+  },
   data() {
     return {
       projectsIntro: portfolioInfo.projectsIntro,

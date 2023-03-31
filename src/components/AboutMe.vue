@@ -1,13 +1,7 @@
 <template>
   <div class="about-me">
     <p class="first-line">Hola! My name is</p>
-    <h2
-      :class="{ 'second-line': true, 'red-span': isHovering }"
-      v-on:mouseover="isHovering = true"
-      v-on:mouseout="isHovering = false"
-    >
-      {{ firstName }} {{ lastName }}
-    </h2>
+    <h2 class="second-line">{{ firstName }} {{ lastName }}</h2>
     <h1 class="third-line">
       I am a <span class="job-title">{{ jobTitle }}</span>
     </h1>
@@ -26,7 +20,6 @@ export default {
       lastName: portfolioInfo.lastName,
       jobTitle: portfolioInfo.jobTitle,
       aboutMe: portfolioInfo.aboutMe,
-      isHovering: false,
     };
   },
 };

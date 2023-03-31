@@ -1,14 +1,13 @@
 <template>
-  <div>
-    <div class="project" v-for="(project, index) in projects" :key="index">
-      <a :href="project.url">{{ project.url }}</a>
-      <p class="description">{{ project.description }}</p>
-      <ul class="skills">
-        <li v-for="(skill, index) in project.skillsApplied" :key="index">
-          {{ skill }}
-        </li>
-      </ul>
-    </div>
+  <div class="project" v-for="(project, index) in projects" :key="index">
+    <a class="project-url" :href="project.url">{{ project.url }}</a>
+    <p class="project-description">{{ project.description }}</p>
+    <ul class="project-skills">
+      <li v-for="(skill, index) in project.skillsApplied" :key="index">
+        {{ skill }}
+        <span v-if="index !== project.skillsApplied.length - 1"> | </span>
+      </li>
+    </ul>
   </div>
 </template>
 
