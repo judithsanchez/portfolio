@@ -1,4 +1,5 @@
 <template>
+  <admin-access></admin-access>
   <add-new-project />
   <nav-bar />
   <about-me />
@@ -10,6 +11,7 @@ import NavBar from './components/NavBar.vue';
 import AboutMe from './components/AboutMe.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import AddNewProject from './components/AddNewProject.vue';
+import AdminAccess from './components/AdminAccess.vue';
 
 export default {
   components: {
@@ -17,6 +19,7 @@ export default {
     'about-me': AboutMe,
     'projects-section': ProjectsSection,
     'add-new-project': AddNewProject,
+    'admin-access': AdminAccess,
   },
 };
 </script>

@@ -109,5 +109,3 @@ const portfolioJudithSanchez = new Portfolio({
 });
 
 export default portfolioJudithSanchez;
-
-console.log(portfolioJudithSanchez);
