@@ -24,6 +24,17 @@ class Portfolio {
     this.projectsIntro = projectsIntro;
     this.projects = projects;
   }
+
+  addNewProject(title, url, description) {
+    const project = {
+      title,
+      url,
+      description,
+      // skillsApplied: [...skills],
+    };
+
+    this.projects.push(project);
+  }
 }
 
 const portfolioJudithSanchez = new Portfolio({
@@ -95,3 +106,5 @@ const portfolioJudithSanchez = new Portfolio({
 });
 
 export default portfolioJudithSanchez;
+
+console.log(portfolioJudithSanchez);

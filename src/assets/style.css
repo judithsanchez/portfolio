@@ -172,3 +172,34 @@
   font-weight: 300;
   margin: 0 1rem;
 }
+
+.add-new-project-form {
+  align-items: center;
+  background-color: #93f8b3;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 2rem;
+}
+
+.add-new-project-form h3 {
+  color: var(--shade-1);
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.add-new-project-form h4 {
+  color: var(--shade-2);
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.add-new-project-title,
+.add-new-project-url,
+.add-new-project-description {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 2rem;
+}
