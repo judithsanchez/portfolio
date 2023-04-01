@@ -13,12 +13,12 @@
 
 <script>
 import '../assets/style.css';
-import portfolioInfo from '../portfolio-info.json';
+import portfolioJudithSanchez from '../portfolio-info';
 
 export default {
   data() {
     return {
-      projects: portfolioInfo.projects,
+      projects: portfolioJudithSanchez.projects,
     };
   },
 };

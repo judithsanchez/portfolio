@@ -18,7 +18,7 @@
 
 <script>
 import '../assets/style.css';
-import portfolioInfo from '../portfolio-info.json';
+import portfolioJudithSanchez from '../portfolio-info';
 import ProjectInfo from './ProjectInfo.vue';
 
 export default {
@@ -27,9 +27,8 @@ export default {
   },
   data() {
     return {
-      projectsIntro: portfolioInfo.projectsIntro,
-      cv: portfolioInfo.cv,
-      // projects: portfolioInfo.projects,
+      projectsIntro: portfolioJudithSanchez.projectsIntro,
+      cv: portfolioJudithSanchez.cv,
     };
   },
 };

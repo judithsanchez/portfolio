@@ -11,15 +11,16 @@
 
 <script>
 import '../assets/style.css';
-import portfolioInfo from '../portfolio-info.json';
+// import portfolioInfo from '../portfolio-info.json';
+import portfolioJudithSanchez from '../portfolio-info';
 
 export default {
   data() {
     return {
-      firstName: portfolioInfo.firstName,
-      lastName: portfolioInfo.lastName,
-      jobTitle: portfolioInfo.jobTitle,
-      aboutMe: portfolioInfo.aboutMe,
+      firstName: portfolioJudithSanchez.firstName,
+      lastName: portfolioJudithSanchez.lastName,
+      jobTitle: portfolioJudithSanchez.jobTitle,
+      aboutMe: portfolioJudithSanchez.aboutMe,
     };
   },
 };

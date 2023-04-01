@@ -36,7 +36,7 @@ import '../assets/style.css';
 // 1.- I am importing an object named portfolioInfo from a
 // JSON file located at '../portfolio-info.json'.
 
-import portfolioInfo from '../portfolio-info.json';
+import portfolioJudithSanchez from '../portfolio-info';
 
 export default {
   data() {
@@ -45,9 +45,9 @@ export default {
       // that returns an object with three properties: github, linkedin, and email.
       // Each of these properties is assigned the corresponding value
       // from the imported portfolioInfo object.
-      github: portfolioInfo.github,
-      linkedin: portfolioInfo.linkedin,
-      email: portfolioInfo.email,
+      github: portfolioJudithSanchez.github,
+      linkedin: portfolioJudithSanchez.linkedin,
+      email: portfolioJudithSanchez.email,
     };
   },
 };
