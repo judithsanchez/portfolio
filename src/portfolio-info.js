@@ -30,8 +30,12 @@ class Portfolio {
       title,
       url,
       description,
-      skillsApplied: [...skills],
+      skillsApplied: [],
     };
+
+    skills.forEach((skill) => {
+      project.skillsApplied.push(skill);
+    });
 
     this.projects.push(project);
   }

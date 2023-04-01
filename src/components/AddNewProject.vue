@@ -17,11 +17,11 @@
       <h4>Skills:</h4>
     </div>
     <div class="skill-set">
-      <skills-btn></skills-btn>
+      <skill-set-btn @add-skillset="addSkillset"></skill-set-btn>
     </div>
     <button
       class="add-new-project-btn"
-      @click.prevent="portfolio.addNewProject(title)"
+      @click.prevent="portfolio.addNewProject(title, url, description, skills)"
     >
       Add Project
     </button>
@@ -29,13 +29,12 @@
 </template>
 
 <script>
-import '../assets/style.css';
 import portfolioJudithSanchez from '../portfolio-info';
 import SkillSetBtn from './SkillSetBtn.vue';
 
 export default {
   components: {
-    'skills-btn': SkillSetBtn,
+    'skill-set-btn': SkillSetBtn,
   },
   data() {
     return {
@@ -45,6 +44,11 @@ export default {
       skills: [],
       portfolio: portfolioJudithSanchez,
     };
+  },
+  methods: {
+    addSkillset(skill) {
+      this.skills.push(skill);
+    },
   },
 };
 </script>

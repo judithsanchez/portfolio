@@ -1,11 +1,15 @@
 <template>
-  <button class="skill" v-for="(skill, index) in skills" :key="index">
+  <button
+    class="skill"
+    v-for="(skill, index) in skills"
+    :key="index"
+    @click.prevent="getSkill(skill)"
+  >
     {{ skill }}
   </button>
 </template>
 
 <script>
-import '../assets/style.css';
 import portfolioJudithSanchez from '../portfolio-info';
 
 export default {
@@ -13,6 +17,11 @@ export default {
     return {
       skills: portfolioJudithSanchez.skills,
     };
+  },
+  methods: {
+    getSkill(skill) {
+      this.$emit('add-skillset', skill);
+    },
   },
 };
 </script>
