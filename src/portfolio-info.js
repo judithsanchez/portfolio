@@ -25,12 +25,12 @@ class Portfolio {
     this.projects = projects;
   }
 
-  addNewProject(title, url, description) {
+  addNewProject(title, url, description, skills) {
     const project = {
       title,
       url,
       description,
-      // skillsApplied: [...skills],
+      skillsApplied: [...skills],
     };
 
     this.projects.push(project);
@@ -48,36 +48,35 @@ const portfolioJudithSanchez = new Portfolio({
   aboutMe:
     "As a tech enthusiast, I'm passionate about creating solutions through code. I have a diverse background that includes studying Physiotherapy and working as an online Spanish tutor. From that job, my pet project was born: Bocaditos de Español. I'd love for you to check it out!",
   skills: [
-    'JavaScript',
-    'HTML',
-    'CSS',
-    'React',
-    'Vue',
+    'Agile Development',
     'Angular',
-    'Node.js',
+    'Apache',
+    'AWS',
+    'Babel',
+    'CSS',
+    'Docker',
     'Express.js',
-    'MongoDB',
-    'MySQL',
-    'PostgreSQL',
+    'Firebase',
     'Git',
     'GitHub',
-    'Webpack',
-    'Babel',
-    'RESTful APIs',
     'GraphQL',
-    'AWS',
-    'Firebase',
-    'Docker',
+    'HTML',
+    'Jest',
+    'JavaScript',
     'Kubernetes',
     'Linux',
-    'Nginx',
-    'Apache',
-    'Jest',
     'Mocha',
-    'Chai',
-    'Agile Development',
+    'MongoDB',
+    'MySQL',
+    'Nginx',
+    'Node.js',
+    'PostgreSQL',
+    'React',
+    'RESTful APIs',
     'Scrum',
     'UI/UX Design',
+    'Vue',
+    'Webpack',
   ],
   projectsIntro:
     "Do you want to see my projects? You're already checking out one with this portfolio! But there's more to explore - keep scrolling down to discover what else I've been working on.",

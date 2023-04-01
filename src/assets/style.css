@@ -22,6 +22,7 @@
   --shade-5: #51d5c7;
   --shade-6: #68e7c2;
   --shade-7: #93f8b3;
+  --skills-btn: white;
 }
 
 #app {
@@ -202,4 +203,27 @@
   display: flex;
   flex-flow: row nowrap;
   margin-bottom: 2rem;
+}
+
+.add-new-project-btn {
+  background-color: var(--shade-2);
+  font-size: 2rem;
+  margin: 3rem;
+  padding: 1rem;
+}
+
+.skill-set {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.skill-set button {
+  background-color: var(--skills-btn);
+  border: none;
+  border-radius: 2rem;
+  color: #00757b;
+  cursor: pointer;
+  font-size: 1.5rem;
+  margin: 0.5rem;
+  padding: 1rem;
 }
