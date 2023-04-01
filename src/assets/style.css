@@ -193,7 +193,29 @@
   color: var(--shade-2);
   font-size: 2rem;
   font-weight: 300;
-  margin-bottom: 2rem;
+  line-height: 100%;
+}
+
+.add-new-project-form input {
+  background-color: white;
+  border: none;
+  border-radius: 2rem;
+  color: var(--main-background);
+  margin-left: 1.5rem;
+  outline: none;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.add-new-project-form textarea {
+  background-color: white;
+  border: none;
+  border-radius: 1rem;
+  color: var(--main-background);
+  margin-left: 1.5rem;
+  outline: none;
+  padding: 0.5rem;
+  resize: none;
 }
 
 .add-new-project-title,
@@ -202,19 +224,26 @@
   align-items: center;
   display: flex;
   flex-flow: row nowrap;
-  margin-bottom: 2rem;
+  font-size: 3rem;
+
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  width: 100%;
 }
 
 .add-new-project-btn {
   background-color: var(--shade-2);
-  font-size: 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 2.5rem;
   margin: 3rem;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .skill-set {
   display: flex;
   flex-flow: row wrap;
+  margin-top: 2rem;
 }
 
 .skill-set button {
