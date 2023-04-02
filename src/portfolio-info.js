@@ -86,96 +86,31 @@ const portfolioJudithSanchez = new Portfolio({
         'JavaScript',
         'CSS',
         'HTML',
+        'React',
         'Figma',
         'Adobe Illustrator',
       ],
     },
     {
-      title: 'HackerRank Challenges',
-      url: 'github.com/judithsanchez/hackerrank-problem-solving',
+      title: 'Hangman',
+      url: 'github.com/judithsanchez/hangman-game-v2',
       description:
-        'A collection of my solutions for <span class="highlight1">Hackerrank</span> <span class="highlight2">problem-solving challenges</span>, aimed at improving coding and problem-solving skills.',
-      skillsApplied: ['JavaScript'],
+        '<span class="highlight1">My version</span> of the popular <span class="highlight2">hangman game</span> for kids features sentences from famous movies.',
+      skillsApplied: ['JavaScript', 'HTML', 'CSS', 'Figma', 'Adobe Illustrator'],
     },
     {
-      title: 'Bocaditos de Español',
-      url: 'github.com/judithsanchez/bocaditosespanol',
+      title: 'Text with Translations',
+      url: 'github.com/judithsanchez/text-with-translations',
       description:
-        'Free <span class="highlight1">educational platform</span> for Spanish teachers and students of all ages, <span class="highlight2">based on learning with native content and fun games</span>. Give it a try!',
-      skillsApplied: [
-        'JavaScript',
-        'CSS',
-        'HTML',
-        'Figma',
-        'Adobe Illustrator',
-      ],
+        'A feature that <span class="highlight1">shows relevant translations</span> <span class="highlight2">when you click on a word</span> in a text.',
+      skillsApplied: ['JavaScript', 'HTML', 'CSS'],
     },
     {
-      title: 'HackerRank Challenges',
-      url: 'github.com/judithsanchez/hackerrank-problem-solving',
+      title: 'Lyrics',
+      url: 'github.com/judithsanchez/lyrics-translations',
       description:
-        'A collection of my solutions for <span class="highlight1">Hackerrank</span> <span class="highlight2">problem-solving challenges</span>, aimed at improving coding and problem-solving skills.',
-      skillsApplied: ['JavaScript'],
-    },
-    {
-      title: 'Bocaditos de Español',
-      url: 'github.com/judithsanchez/bocaditosespanol',
-      description:
-        'Free <span class="highlight1">educational platform</span> for Spanish teachers and students of all ages, <span class="highlight2">based on learning with native content and fun games</span>. Give it a try!',
-      skillsApplied: [
-        'JavaScript',
-        'CSS',
-        'HTML',
-        'Figma',
-        'Adobe Illustrator',
-      ],
-    },
-    {
-      title: 'HackerRank Challenges',
-      url: 'github.com/judithsanchez/hackerrank-problem-solving',
-      description:
-        'A collection of my solutions for <span class="highlight1">Hackerrank</span> <span class="highlight2">problem-solving challenges</span>, aimed at improving coding and problem-solving skills.',
-      skillsApplied: ['JavaScript'],
-    },
-    {
-      title: 'Bocaditos de Español',
-      url: 'github.com/judithsanchez/bocaditosespanol',
-      description:
-        'Free <span class="highlight1">educational platform</span> for Spanish teachers and students of all ages, <span class="highlight2">based on learning with native content and fun games</span>. Give it a try!',
-      skillsApplied: [
-        'JavaScript',
-        'CSS',
-        'HTML',
-        'Figma',
-        'Adobe Illustrator',
-      ],
-    },
-    {
-      title: 'HackerRank Challenges',
-      url: 'github.com/judithsanchez/hackerrank-problem-solving',
-      description:
-        'A collection of my solutions for <span class="highlight1">Hackerrank</span> <span class="highlight2">problem-solving challenges</span>, aimed at improving coding and problem-solving skills.',
-      skillsApplied: ['JavaScript'],
-    },
-    {
-      title: 'Bocaditos de Español',
-      url: 'github.com/judithsanchez/bocaditosespanol',
-      description:
-        'Free <span class="highlight1">educational platform</span> for Spanish teachers and students of all ages, <span class="highlight2">based on learning with native content and fun games</span>. Give it a try!',
-      skillsApplied: [
-        'JavaScript',
-        'CSS',
-        'HTML',
-        'Figma',
-        'Adobe Illustrator',
-      ],
-    },
-    {
-      title: 'HackerRank Challenges',
-      url: 'github.com/judithsanchez/hackerrank-problem-solving',
-      description:
-        'A collection of my solutions for <span class="highlight1">Hackerrank</span> <span class="highlight2">problem-solving challenges</span>, aimed at improving coding and problem-solving skills.',
-      skillsApplied: ['JavaScript'],
+        '<span class="highlight1">Learn Spanish through songs</span> with this feature that allows students to <span class="highlight2">practice their listening skills by completing the lyrics</span>. Additionally, they can access translations if needed.',
+      skillsApplied: ['JavaScript', 'HTML', 'CSS'],
     },
 
   ],
