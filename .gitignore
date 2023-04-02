@@ -23,8 +23,4 @@ dist-ssr
 *.sw?
 
 # Other files
-package-lock.json
-package.json
-.eslintrc.json
-vite.config.js
 .vscode
