@@ -1,5 +1,9 @@
 <template>
-  <div class="project" v-for="(project, index) in projects" :key="index">
+  <div
+    :class="getProjectClass(index)"
+    v-for="(project, index) in projects"
+    :key="index"
+  >
     <a class="project-url" :href="'https://' + project.url">{{
       project.url
     }}</a>
@@ -12,7 +16,6 @@
     </ul>
   </div>
 </template>
-
 <script>
 import '../assets/main-styles.css';
 import '../assets/project-info.css';
@@ -23,6 +26,17 @@ export default {
     return {
       projects: portfolioJudithSanchez.projects,
     };
+  },
+  computed: {
+    numProjects() {
+      return this.projects.length;
+    },
+  },
+  methods: {
+    getProjectClass(index) {
+      const projectNum = (index % 7) + 1;
+      return `project${projectNum}`;
+    },
   },
 };
 </script>

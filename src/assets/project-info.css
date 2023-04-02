@@ -1,15 +1,4 @@
-.project {
-  background-color: #005158;
-  font-size: 2.4rem;
-  margin-bottom: 3rem;
-  padding: 1rem;
-}
-
-.project-url {
-  font-size: 1.2rem;
-  font-weight: 100;
-  text-decoration: none;
-}
+/* Set common styles for project descriptions */
 
 .project-description {
   font-size: 1.6rem;
@@ -17,14 +6,155 @@
   text-align: center;
 }
 
-.mint-highlight {
-  color: var(--shade-7);
-}
-
 .project-description span {
   font-size: 1.6rem;
   font-weight: 500;
 }
+
+/* Set common styles for project URLs */
+
+.project-url {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* Set conditional styles for projects */
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6,
+.project7 {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+/* Project 1 */
+.project1 {
+  background-color: var(--shade-1);
+}
+
+.project1 .highlight1 {
+  color: var(--shade-7);
+}
+
+.project1 .highlight2 {
+  color: var(--shade-6);
+}
+
+/* Project 2 */
+.project2 {
+  background-color: var(--shade-2);
+}
+
+.project2 .highlight1 {
+  color: var(--shade-7);
+}
+
+.project2 .highlight2 {
+  color: var(--shade-6);
+}
+
+/* Project 3 */
+.project3 {
+  background-color: var(--shade-3);
+}
+
+.project3 .highlight1 {
+  color: var(--shade-7);
+}
+
+.project3 .highlight2 {
+  color: var(--shade-6);
+}
+
+/* Project 4 */
+.project4 {
+  background-color: var(--shade-4);
+}
+
+.project4 .project-description,
+.project4 .project-url,
+.project4 .project-skills li,
+.project4 .project-skills li span {
+  color: var(--shade-1);
+}
+
+.project4 .highlight1 {
+  color: var(--main-text-color);
+}
+
+.project4 .highlight2 {
+  color: var(--shade-7);
+}
+
+/* Project 5 */
+.project5 {
+  background-color: var(--shade-5);
+}
+
+.project5 .project-description,
+.project5 .project-url,
+.project5 .project-skills li,
+.project5 .project-skills li span {
+  color: var(--shade-1);
+}
+
+.project5 .highlight1 {
+  color: var(--main-text-color);
+}
+
+.project5 .highlight2 {
+  color: var(--shade-2);
+}
+
+/* Project 6 */
+
+.project6 {
+  background-color: var(--shade-6);
+}
+
+.project6 .project-description,
+.project6 .project-url,
+.project6 .project-skills li,
+.project6 .project-skills li span {
+  color: var(--shade-1);
+}
+
+.project6 .highlight1 {
+  color: var(--shade-2);
+}
+
+.project6 .highlight2 {
+  color: var(--shade-1);
+}
+
+/* Project 7 */
+
+.project7 {
+  background-color: var(--shade-7);
+}
+
+.project7 .project-description,
+.project7 .project-url,
+.project7 .project-skills li,
+.project7 .project-skills li span {
+  color: var(--shade-1);
+}
+
+.project7 .highlight1 {
+  color: var(--shade-3);
+}
+
+.project7 .highlight2 {
+  color: var(--shade-2);
+}
+
+/* Set common styles for project skills */
 
 .project-skills {
   display: flex;
