@@ -1,6 +1,8 @@
 <template>
   <div class="project" v-for="(project, index) in projects" :key="index">
-    <a class="project-url" :href="project.url">{{ project.url }}</a>
+    <a class="project-url" :href="'https://' + project.url">{{
+      project.url
+    }}</a>
     <p class="project-description" v-html="project.description"></p>
     <ul class="project-skills">
       <li v-for="(skill, index) in project.skillsApplied" :key="index">
