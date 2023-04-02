@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import '../assets/style.css';
+import '../assets/main-styles.css';
 import '../assets/project-info.css';
 import portfolioJudithSanchez from '../portfolio-info';
 

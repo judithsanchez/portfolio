@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import '../assets/style.css';
+import '../assets/main-styles.css';
 import '../assets/about-me.css';
 import portfolioJudithSanchez from '../portfolio-info';
 

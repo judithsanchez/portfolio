@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import '../assets/style.css';
+import '../assets/main-styles.css';
 import '../assets/nav-bar.css';
 // 1.- I am importing an object named portfolioInfo from a
 // JSON file located at '../portfolio-info.json'.

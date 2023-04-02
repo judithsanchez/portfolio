@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import '../assets/style.css';
+import '../assets/main-styles.css';
 import '../assets/admin-access.css';
 import judithsanchez from '../admin';
 

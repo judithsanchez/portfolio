@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import '../assets/style.css';
+import '../assets/main-styles.css';
 import '../assets/projects-section.css';
 import ProjectInfo from './ProjectInfo.vue';
 
