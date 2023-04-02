@@ -1,7 +1,9 @@
 <template>
   <div class="about-me">
     <p class="first-line">Hola! My name is</p>
-    <h2 class="second-line">{{ firstName }} {{ lastName }}</h2>
+    <h2 class="second-line" @click="incrementCounter">
+      {{ firstName }} {{ lastName }}
+    </h2>
     <h1 class="third-line">
       I am a <span class="job-title">{{ jobTitle }}</span>
     </h1>
@@ -30,7 +32,17 @@ export default {
       aboutMe: portfolioJudithSanchez.aboutMe,
       projectsIntro: portfolioJudithSanchez.projectsIntro,
       cv: portfolioJudithSanchez.cv,
+      clickCounter: 0,
     };
+  },
+  methods: {
+    incrementCounter() {
+      this.clickCounter++;
+      if (this.clickCounter === 3) {
+        alert(this.clickCounter);
+        this.$emit('show-admin-access');
+      }
+    },
   },
 };
 </script>

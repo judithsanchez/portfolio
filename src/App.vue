@@ -1,8 +1,8 @@
 <template>
   <nav-bar />
-  <about-me />
+  <about-me @show-admin-access="showAdmin = true" />
   <projects-section />
-  <admin-access></admin-access>
+  <admin-access v-if="showAdmin"></admin-access>
   <add-new-project />
 </template>
 
@@ -20,6 +20,11 @@ export default {
     'projects-section': ProjectsSection,
     'add-new-project': AddNewProject,
     'admin-access': AdminAccess,
+  },
+  data() {
+    return {
+      showAdmin: false,
+    };
   },
 };
 </script>
