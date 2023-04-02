@@ -33,6 +33,7 @@ export default {
       projectsIntro: portfolioJudithSanchez.projectsIntro,
       cv: portfolioJudithSanchez.cv,
       clickCounter: 0,
+      showAdminView: false,
     };
   },
   methods: {
@@ -40,7 +41,6 @@ export default {
       this.clickCounter++;
       if (this.clickCounter === 3) {
         alert(this.clickCounter);
-        this.$emit('show-admin-access');
       }
     },
   },

@@ -87,7 +87,7 @@ const portfolioJudithSanchez = new Portfolio({
   projects: [
     {
       title: 'Bocaditos de Español',
-      url: 'github.com/judithsanchez/bocaditosespanol',
+      url: 'www.github.com/judithsanchez/bocaditosespanol',
       description:
         'Free educational platform for Spanish teachers and students of all ages, based on learning with native content and fun games. Give it a try!',
       skillsApplied: [
@@ -100,7 +100,7 @@ const portfolioJudithSanchez = new Portfolio({
     },
     {
       title: 'HackerRank Challenges',
-      url: 'github.com/judithsanchez/hackerrank-problem-solving',
+      url: 'www.github.com/judithsanchez/hackerrank-problem-solving',
       description:
         'A collection of my solutions for Hackerrank problem-solving challenges, aimed at improving coding and problem-solving skills.',
       skillsApplied: ['JavaScript'],
