@@ -1,9 +1,9 @@
 <template>
-  <admin-access></admin-access>
-  <add-new-project />
   <nav-bar />
   <about-me />
   <projects-section />
+  <admin-access></admin-access>
+  <add-new-project />
 </template>
 
 <script>

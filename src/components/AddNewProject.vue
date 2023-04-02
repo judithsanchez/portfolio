@@ -19,15 +19,9 @@
     <div class="skill-set">
       <skill-set-btn @add-skillset="addSkillset"></skill-set-btn>
     </div>
-    <!-- <button
-      class="add-new-project-btn"
-      @click.prevent="portfolio.addNewProject(title, url, description, skills)"
-    >
-      Add Project
-    </button> -->
     <button
       class="add-new-project-btn"
-      @click="portfolio.addNewProject(title, url, description, skills)"
+      @click.prevent="portfolio.addNewProject(title, url, description, skills)"
     >
       Add Project
     </button>

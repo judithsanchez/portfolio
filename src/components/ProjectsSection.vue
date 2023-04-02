@@ -1,12 +1,12 @@
 <template>
   <div class="projects-section">
-    <p class="projects-intro">{{ projectsIntro }}</p>
+    <!-- <p class="projects-intro">{{ projectsIntro }}</p>
 
     <div class="download-cv-button">
       <a :href="cv">
         <p>Download <span class="cv">CV</span></p>
       </a>
-    </div>
+    </div> -->
 
     <h3>Projects</h3>
 
@@ -18,7 +18,7 @@
 
 <script>
 import '../assets/style.css';
-import portfolioJudithSanchez from '../portfolio-info';
+// import portfolioJudithSanchez from '../portfolio-info';
 import ProjectInfo from './ProjectInfo.vue';
 
 export default {
@@ -27,8 +27,8 @@ export default {
   },
   data() {
     return {
-      projectsIntro: portfolioJudithSanchez.projectsIntro,
-      cv: portfolioJudithSanchez.cv,
+      // projectsIntro: portfolioJudithSanchez.projectsIntro,
+      // cv: portfolioJudithSanchez.cv,
     };
   },
 };

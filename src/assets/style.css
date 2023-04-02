@@ -27,8 +27,10 @@
 
 #app {
   background-color: var(--main-background);
+  display: flex;
+  flex-direction: column;
   margin: auto;
-  width: 414px;
+  /* width: 414px; */
 }
 
 .nav-bar {
@@ -61,6 +63,8 @@
 }
 
 .about-me {
+  display: flex;
+  flex-flow: column nowrap;
   color: var(--text-light-grey);
   margin: 4.5rem 2.5rem 0 2.5rem;
 }
@@ -88,30 +92,20 @@
   font-weight: 500;
 }
 
-.about-me-text {
+.about-me-text,
+.projects-intro {
   font-size: 1.6rem;
   line-height: 200%;
   margin-top: 4rem;
 }
 
-.projects-section {
-  display: flex;
-  flex-flow: column nowrap;
-  margin: 0 2.5rem;
-}
-
-.projects-intro {
-  font-size: 1.6rem;
-  line-height: 200%;
-  margin-top: 4.5rem;
-}
-
 .download-cv-button {
   align-self: flex-end;
   background-color: var(--shade-6);
+  margin-top: 3rem;
   padding: 1rem;
   text-align: center;
-  margin: 3rem;
+  width: 15rem;
 }
 
 .download-cv-button p {
@@ -128,6 +122,12 @@
   color: var(--shade-1);
   font-size: 1.6rem;
   font-weight: 300;
+}
+
+.projects-section {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 2.5rem;
 }
 
 .projects-section h3 {
@@ -301,3 +301,43 @@
   font-weight: 400;
   padding: 1rem;
 }
+
+.add-new-project-form {
+  display: none;
+}
+.admin-view {
+  display: none;
+}
+
+@media only screen and (min-aspect-ratio: 1/1) {
+  #app {
+    justify-content: space-around;
+    flex-flow: row wrap;
+    height: 100vh;
+    margin: 0;
+  }
+  .about-me {
+    margin: 0;
+    width: 30%;
+  }
+  .projects-section {
+    margin: 0;
+    max-height: 75vh;
+    overflow-y: scroll;
+    width: 50%;
+  }
+}
+
+/* .nav-bar {
+  background-color: var(--main-background);
+  display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  width: 100%;
+}
+
+.js-logo {
+  height: 2.9rem;
+  width: 2.2rem;
+} */

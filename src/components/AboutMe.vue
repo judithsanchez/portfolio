@@ -6,12 +6,19 @@
       I am a <span class="job-title">{{ jobTitle }}</span>
     </h1>
     <p class="about-me-text">{{ aboutMe }}</p>
+
+    <p class="projects-intro">{{ projectsIntro }}</p>
+
+    <div class="download-cv-button">
+      <a :href="cv">
+        <p>Download <span class="cv">CV</span></p>
+      </a>
+    </div>
   </div>
 </template>
 
 <script>
 import '../assets/style.css';
-// import portfolioInfo from '../portfolio-info.json';
 import portfolioJudithSanchez from '../portfolio-info';
 
 export default {
@@ -21,6 +28,8 @@ export default {
       lastName: portfolioJudithSanchez.lastName,
       jobTitle: portfolioJudithSanchez.jobTitle,
       aboutMe: portfolioJudithSanchez.aboutMe,
+      projectsIntro: portfolioJudithSanchez.projectsIntro,
+      cv: portfolioJudithSanchez.cv,
     };
   },
 };
