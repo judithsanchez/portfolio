@@ -47,7 +47,7 @@ const portfolioJudithSanchez = new Portfolio({
   jobTitle: 'Full Stack Developer',
   github: 'https://github.com/judithsanchez',
   linkedin: 'https://www.linkedin.com/in/judithvsanchezc/',
-  cv: 'notengoporahora',
+  cv: 'https://drive.google.com/file/d/1jc-jhRBAPc5I2kpMImai3Ggey7yi1-5e/view?usp=share_link',
   email: 'judithv.sanchezc@gmail.com',
   aboutMe:
     "As a tech enthusiast, I'm passionate about creating solutions through code. I have a diverse background that includes studying Physiotherapy and working as an online Spanish tutor. From that job, my pet project was born: Bocaditos de Español. I'd love for you to check it out!",

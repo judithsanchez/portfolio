@@ -316,9 +316,18 @@
     height: 100vh;
     margin: 0;
   }
+  .nav-bar {
+    height: 6rem;
+    padding: 1.5rem 7rem;
+  }
+
   .about-me {
     margin: 0;
     width: 30%;
+  }
+
+  .download-cv-button {
+    margin-top: 4.5rem;
   }
   .projects-section {
     margin: 0;
@@ -326,18 +335,27 @@
     overflow-y: scroll;
     width: 50%;
   }
-}
 
-/* .nav-bar {
-  background-color: var(--main-background);
-  display: flex;
-  flex-direction: row nowrap;
-  justify-content: space-between;
-  padding: 1.5rem 2.5rem;
-  width: 100%;
-}
+  /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--shade-3) rgba(209, 209, 209, 0.3);
+  }
 
-.js-logo {
-  height: 2.9rem;
-  width: 2.2rem;
-} */
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: rgba(209, 209, 209, 0.1);
+    border-radius: 2rem;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--shade-3);
+    border-radius: 2rem;
+    border: none;
+  }
+}
