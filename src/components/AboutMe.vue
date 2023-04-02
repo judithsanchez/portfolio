@@ -38,6 +38,7 @@
 
 <script>
 import '../assets/style.css';
+import '../assets/about-me.css';
 import portfolioJudithSanchez from '../portfolio-info';
 
 export default {

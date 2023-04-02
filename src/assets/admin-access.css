@@ -1,0 +1,44 @@
+.admin-view {
+  align-items: center;
+  background-color: var(--shade-2);
+  /* display: flex; */
+  display: none;
+  flex-flow: column nowrap;
+  padding: 2rem 0;
+}
+
+.admin-view h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.admin-view label {
+  font-size: 2rem;
+  margin-right: 1.5rem;
+}
+
+.admin-view input {
+  border: none;
+  border-radius: 2rem;
+  color: var(--shade-1);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  outline: none;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.admin-view p {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.admin-view button {
+  background-color: var(--shade-5);
+  border: none;
+  border-radius: 1.5rem;
+  color: var(--shade-2);
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 1rem;
+}

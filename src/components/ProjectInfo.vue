@@ -15,6 +15,7 @@
 
 <script>
 import '../assets/style.css';
+import '../assets/project-info.css';
 import portfolioJudithSanchez from '../portfolio-info';
 
 export default {

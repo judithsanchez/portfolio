@@ -1,0 +1,11 @@
+.projects-section {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0 2.5rem;
+}
+
+.projects-section h3 {
+  font-size: 2.4rem;
+  font-weight: 100;
+  margin-bottom: 1.5rem;
+}

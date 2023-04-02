@@ -29,6 +29,8 @@
 </template>
 
 <script>
+import '../assets/style.css';
+import '../assets/add-new-project.css';
 import portfolioJudithSanchez from '../portfolio-info';
 import SkillSetBtn from './SkillSetBtn.vue';
 
