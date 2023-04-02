@@ -7,9 +7,7 @@ class Portfolio {
     linkedin,
     cv,
     email,
-    aboutMe,
     skills,
-    projectsIntro,
     projects,
   }) {
     this.firstName = firstName;
@@ -19,9 +17,7 @@ class Portfolio {
     this.linkedin = linkedin;
     this.cv = cv;
     this.email = email;
-    this.aboutMe = aboutMe;
     this.skills = skills;
-    this.projectsIntro = projectsIntro;
     this.projects = projects;
   }
 
@@ -49,8 +45,6 @@ const portfolioJudithSanchez = new Portfolio({
   linkedin: 'https://www.linkedin.com/in/judithvsanchezc/',
   cv: 'https://drive.google.com/file/d/1jc-jhRBAPc5I2kpMImai3Ggey7yi1-5e/view?usp=share_link',
   email: 'judithv.sanchezc@gmail.com',
-  aboutMe:
-    "As a tech enthusiast, I'm passionate about creating solutions through code. I have a diverse background that includes studying Physiotherapy and working as an online Spanish tutor. From that job, my pet project was born: Bocaditos de Español. I'd love for you to check it out!",
   skills: [
     'Agile Development',
     'Angular',
@@ -82,8 +76,6 @@ const portfolioJudithSanchez = new Portfolio({
     'Vue',
     'Webpack',
   ],
-  projectsIntro:
-    "Do you want to see my projects? You're already checking out one with this portfolio! But there's more to explore - keep scrolling down to discover what else I've been working on.",
   projects: [
     {
       title: 'Bocaditos de Español',

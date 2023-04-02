@@ -99,6 +99,17 @@
   margin-top: 4rem;
 }
 
+.white-highlight {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.aqua-highlight {
+  color: var(--shade-6);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
 .download-cv-button {
   align-self: flex-end;
   background-color: var(--shade-6);
@@ -310,7 +321,7 @@
   display: none;
 }
 
-@media only screen and (min-aspect-ratio: 1/1) {
+@media only screen and (min-width: 768px) and (orientation: landscape) {
   #app {
     justify-content: space-around;
     flex-flow: row wrap;
@@ -328,12 +339,15 @@
   }
 
   .download-cv-button {
+    align-self: center;
     margin-top: 4.5rem;
   }
+
   .projects-section {
     margin: 0;
     max-height: 75vh;
-    overflow-y: scroll;
+    overflow-y: auto;
+
     width: 50%;
   }
 
