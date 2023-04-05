@@ -1,7 +1,8 @@
 .about-me {
+  color: var(--text-light-grey);
   display: flex;
   flex-flow: column nowrap;
-  color: var(--text-light-grey);
+  grid-area: about-me;
   margin: 4.5rem 2.5rem 0 2.5rem;
 }
 

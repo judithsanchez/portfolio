@@ -1,5 +1,5 @@
 <template>
-  <form class="add-new-project-form">
+  <form class="add-new-project-form" v-if="authenticated">
     <h3>Add New Project</h3>
     <div class="add-new-project-title">
       <h4>Title:</h4>
@@ -37,6 +37,12 @@ import SkillSetBtn from './SkillSetBtn.vue';
 export default {
   components: {
     'skill-set-btn': SkillSetBtn,
+  },
+  props: {
+    authenticated: {
+      type: Boolean,
+      required: true,
+    },
   },
   data() {
     return {

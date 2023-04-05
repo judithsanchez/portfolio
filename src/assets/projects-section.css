@@ -1,6 +1,7 @@
 .projects-section {
   display: flex;
   flex-flow: column nowrap;
+  grid-area: projects;
   margin: 0 2.5rem;
 }
 

@@ -3,6 +3,7 @@
   background-color: var(--shade-2);
   display: flex;
   flex-flow: column nowrap;
+  grid-area: admin-access;
   padding: 2rem 0;
 }
 

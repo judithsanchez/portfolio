@@ -25,20 +25,32 @@
   --skills-btn: white;
 }
 
-#app {
+.app-container {
   background-color: var(--main-background);
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-areas:
+    'admin-access'
+    'add-new-project'
+    'nav-bar'
+    'about-me'
+    'projects';
   margin: auto;
 }
 
 @media only screen and (min-width: 900px) and (orientation: landscape) {
-  #app {
-    justify-content: space-around;
-    flex-flow: row wrap;
+  .app-container {
+    grid-template-areas:
+      'nav-bar nav-bar'
+      'about-me projects'
+      'admin-access admin-access'
+      'add-new-project add-new-project';
+    grid-template-columns: 1fr 1.25fr;
     height: 100vh;
     margin: 0;
   }
+
   .nav-bar {
     height: 6rem;
     padding: 1.5rem 7rem;
@@ -46,7 +58,6 @@
 
   .about-me {
     margin: 0;
-    width: 30%;
   }
 
   .download-cv-button {
@@ -58,7 +69,6 @@
     margin: 0;
     max-height: 75vh;
     overflow-y: auto;
-    width: 40%;
   }
 
   .project-description {

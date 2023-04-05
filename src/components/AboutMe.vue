@@ -54,10 +54,8 @@ export default {
   methods: {
     incrementCounter() {
       this.clickCounter++;
-      console.log(`Counter incremented to ${this.clickCounter}`);
       if (this.clickCounter === 3) {
         this.$emit('show-admin-access');
-        alert('Counter reached 3');
       }
     },
   },

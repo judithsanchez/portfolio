@@ -1,9 +1,9 @@
 .add-new-project-form {
   align-items: center;
   background-color: #93f8b3;
-  /* display: flex; */
-  display: none;
+  display: flex;
   flex-flow: column nowrap;
+  grid-area: add-new-project;
   padding: 2rem;
 }
 

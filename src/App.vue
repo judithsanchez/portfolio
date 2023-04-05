@@ -1,10 +1,9 @@
 <template>
-  <div>
+  <div class="app-container">
+    <admin-access v-if="adminAccess" :isAdminAccessVisible="adminAccess" />
     <nav-bar />
     <about-me @showAdminAccess="showAdminAccess" />
     <projects-section />
-    <add-new-project />
-    <admin-access v-if="adminAccess" />
   </div>
 </template>
 
@@ -12,7 +11,6 @@
 import NavBar from './components/NavBar.vue';
 import AboutMe from './components/AboutMe.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
-import AddNewProject from './components/AddNewProject.vue';
 import AdminAccess from './components/AdminAccess.vue';
 
 export default {
@@ -20,7 +18,6 @@ export default {
     'nav-bar': NavBar,
     'about-me': AboutMe,
     'projects-section': ProjectsSection,
-    'add-new-project': AddNewProject,
     'admin-access': AdminAccess,
   },
   data() {
@@ -31,7 +28,6 @@ export default {
   methods: {
     showAdminAccess() {
       this.adminAccess = true;
-      alert('Admin access granted!');
     },
   },
 };
