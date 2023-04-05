@@ -1,9 +1,11 @@
 <template>
-  <nav-bar />
-  <about-me />
-  <projects-section />
-  <admin-access />
-  <add-new-project />
+  <div>
+    <nav-bar />
+    <about-me @showAdminAccess="showAdminAccess" />
+    <projects-section />
+    <add-new-project />
+    <admin-access v-if="adminAccess" />
+  </div>
 </template>
 
 <script>
@@ -22,7 +24,15 @@ export default {
     'admin-access': AdminAccess,
   },
   data() {
-    return {};
+    return {
+      adminAccess: false,
+    };
+  },
+  methods: {
+    showAdminAccess() {
+      this.adminAccess = true;
+      alert('Admin access granted!');
+    },
   },
 };
 </script>

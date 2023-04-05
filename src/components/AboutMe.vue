@@ -49,14 +49,15 @@ export default {
       jobTitle: portfolioJudithSanchez.jobTitle,
       cv: portfolioJudithSanchez.cv,
       clickCounter: 0,
-      showAdminView: false,
     };
   },
   methods: {
     incrementCounter() {
       this.clickCounter++;
+      console.log(`Counter incremented to ${this.clickCounter}`);
       if (this.clickCounter === 3) {
-        alert(this.clickCounter);
+        this.$emit('show-admin-access');
+        alert('Counter reached 3');
       }
     },
   },

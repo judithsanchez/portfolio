@@ -1,5 +1,5 @@
 <template>
-  <div class="admin-view">
+  <div :class="adminViewClass" v-if="showAdminView">
     <h3>Who are you? 😼</h3>
     <div>
       <label>Username</label>
@@ -28,6 +28,7 @@ export default {
       loginMessage: '',
     };
   },
+
   methods: {
     login() {
       if (this.user.checkCredentials(this.usernameInput, this.passwordInput)) {
