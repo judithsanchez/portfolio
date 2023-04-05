@@ -4,6 +4,7 @@
   display: flex;
   flex-flow: column nowrap;
   grid-area: add-new-project;
+  margin: 5rem 0;
   padding: 2rem;
 }
 
