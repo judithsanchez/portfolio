@@ -92,11 +92,25 @@ const portfolioJudithSanchez = new Portfolio({
       ],
     },
     {
+      title: 'To-Do List',
+      url: 'github.com/judithsanchez/to-do-list',
+      description:
+        'Made a to-do list app with <span class="highlight1">full-stack magic</span>, but had to sprinkle some mandatory <span class="highlight2">React on top.</span> Check it out!',
+
+      skillsApplied: ['React', 'MySQL', 'Express', 'API'],
+    },
+    {
       title: 'Hangman',
       url: 'github.com/judithsanchez/hangman-game-v2',
       description:
         '<span class="highlight1">My version</span> of the popular <span class="highlight2">hangman game</span> for kids features sentences from famous movies.',
-      skillsApplied: ['JavaScript', 'HTML', 'CSS', 'Figma', 'Adobe Illustrator'],
+      skillsApplied: [
+        'JavaScript',
+        'HTML',
+        'CSS',
+        'Figma',
+        'Adobe Illustrator',
+      ],
     },
     {
       title: 'Text with Translations',
@@ -112,7 +126,6 @@ const portfolioJudithSanchez = new Portfolio({
         '<span class="highlight1">Learn Spanish through songs</span> with this feature that allows students to <span class="highlight2">practice their listening skills by completing the lyrics</span>. Additionally, they can access translations if needed.',
       skillsApplied: ['JavaScript', 'HTML', 'CSS'],
     },
-
   ],
 });
 
