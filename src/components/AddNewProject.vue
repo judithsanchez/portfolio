@@ -5,9 +5,9 @@
       <h4>Title:</h4>
       <input type="text" v-model="title" />
     </div>
-    <div class="add-new-project-url">
-      <h4>URL:</h4>
-      <input type="text" v-model="url" />
+    <div class="add-new-project-repository">
+      <h4>repository:</h4>
+      <input type="text" v-model="repository" />
     </div>
     <div class="add-new-project-description">
       <h4>Description:</h4>
@@ -21,7 +21,9 @@
     </div>
     <button
       class="add-new-project-btn"
-      @click.prevent="portfolio.addNewProject(title, url, description, skills)"
+      @click.prevent="
+        portfolio.addNewProject(title, repository, description, skills)
+      "
     >
       Add Project
     </button>
@@ -47,7 +49,7 @@ export default {
   data() {
     return {
       title: '',
-      url: '',
+      repository: '',
       description: '',
       skills: [],
       portfolio: portfolioJudithSanchez,

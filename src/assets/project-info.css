@@ -11,11 +11,26 @@
   font-weight: 500;
 }
 
-/* Set common styles for project URLs */
+/* Set common styles for project repositorys */
 
-.project-url {
+.project-repository {
   font-size: 1.2rem;
   font-weight: 300;
+  text-decoration: none;
+}
+
+/* Set styles for project preview links */
+.live-preview {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-preview {
+  background-color: grey;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.5rem;
   text-decoration: none;
 }
 
@@ -46,6 +61,11 @@
   color: var(--shade-6);
 }
 
+.project1 .project-preview {
+  background-color: var(--shade-7);
+  color: var(--shade-1);
+}
+
 /* Project 2 */
 .project2 {
   background-color: var(--shade-2);
@@ -57,6 +77,11 @@
 
 .project2 .highlight2 {
   color: var(--shade-6);
+}
+
+.project2 .project-preview {
+  background-color: var(--shade-7);
+  color: var(--shade-1);
 }
 
 /* Project 3 */
@@ -72,13 +97,18 @@
   color: var(--shade-6);
 }
 
+.project3 .project-preview {
+  background-color: var(--shade-7);
+  color: var(--shade-1);
+}
+
 /* Project 4 */
 .project4 {
   background-color: var(--shade-4);
 }
 
 .project4 .project-description,
-.project4 .project-url,
+.project4 .project-repository,
 .project4 .project-skills li,
 .project4 .project-skills li span {
   color: var(--shade-1);
@@ -92,13 +122,18 @@
   color: var(--shade-7);
 }
 
+.project4 .project-preview {
+  background-color: var(--shade-7);
+  color: var(--shade-1);
+}
+
 /* Project 5 */
 .project5 {
   background-color: var(--shade-5);
 }
 
 .project5 .project-description,
-.project5 .project-url,
+.project5 .project-repository,
 .project5 .project-skills li,
 .project5 .project-skills li span {
   color: var(--shade-1);
@@ -112,6 +147,11 @@
   color: var(--shade-2);
 }
 
+.project5 .project-preview {
+  background-color: var(--shade-7);
+  color: var(--shade-1);
+}
+
 /* Project 6 */
 
 .project6 {
@@ -119,7 +159,7 @@
 }
 
 .project6 .project-description,
-.project6 .project-url,
+.project6 .project-repository,
 .project6 .project-skills li,
 .project6 .project-skills li span {
   color: var(--shade-1);
@@ -133,6 +173,11 @@
   color: var(--shade-1);
 }
 
+.project6 .project-preview {
+  background-color: var(--shade-3);
+  color: white;
+}
+
 /* Project 7 */
 
 .project7 {
@@ -140,7 +185,7 @@
 }
 
 .project7 .project-description,
-.project7 .project-url,
+.project7 .project-repository,
 .project7 .project-skills li,
 .project7 .project-skills li span {
   color: var(--shade-1);
@@ -154,6 +199,10 @@
   color: var(--shade-2);
 }
 
+.project7 .project-preview {
+  background-color: var(--shade-3);
+  color: white;
+}
 /* Set common styles for project skills */
 
 .project-skills {
