@@ -9,12 +9,12 @@
         <!-- of three a elements based on the values of the github,  -->
         <!-- linkedin, and email properties from the component's data object. -->
 
-        <a :href="github">
+        <a :href="github" target="_blank">
           <img src="../assets/logo-github-negative.svg" alt="GitHub Logo" />
         </a>
       </li>
       <li>
-        <a :href="linkedin">
+        <a :href="linkedin" target="_blank">
           <img
             class="linkedin-logo"
             src="../assets/logo-linkedin-negative.svg"
@@ -23,7 +23,7 @@
         </a>
       </li>
       <li>
-        <a :href="'mailto:' + email">
+        <a :href="'mailto:' + email" target="_blank">
           <img src="../assets/logo-envelope-negative.svg" alt="Email Logo" />
         </a>
       </li>

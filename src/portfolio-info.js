@@ -81,7 +81,7 @@ const portfolioJudithSanchez = new Portfolio({
       title: 'Bocaditos de Español',
       repository: 'github.com/judithsanchez/bocaditosespanol',
       livePreview: '',
-      liveVersion: '',
+      liveVersion: 'bocaditosespanol.com',
       description:
         'Free <span class="highlight1">educational platform</span> for Spanish teachers and students of all ages, <span class="highlight2">based on learning with native content and fun games</span>. Give it a try!',
       skillsApplied: [
@@ -162,7 +162,8 @@ const portfolioJudithSanchez = new Portfolio({
     {
       title: 'Hangman',
       repository: 'github.com/judithsanchez/hangman-game-v2',
-      livePreview: '',
+      livePreview:
+        'loom.com/share/d0d8d515ee0540e893be2f1d5930a310?sid=e1b3ae7a-85d2-4934-8096-c665463425ff',
       liveVersion: 'judithsanchez.github.io/hangman-game-v2',
       description:
         '<span class="highlight1">My version</span> of the popular <span class="highlight2">hangman game</span> for kids features sentences from famous movies.',

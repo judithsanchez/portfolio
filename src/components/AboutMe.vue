@@ -29,7 +29,7 @@
     </p>
 
     <div class="download-cv-button">
-      <a :href="cv">
+      <a :href="cv" target="_blank">
         <p>Download <span class="cv">CV</span></p>
       </a>
     </div>
