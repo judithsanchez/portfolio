@@ -6,6 +6,7 @@
   >
     <div class="live-preview">
       <a
+        v-if="project.livePreview !== ''"
         class="project-preview"
         :href="'https://' + project.livePreview"
         target="_blank"
@@ -17,10 +18,11 @@
         class="project-repository"
         :href="'https://' + project.repository"
         target="_blank"
-        >{{ project.repository }}</a
       >
-
+        {{ project.repository }}
+      </a>
       <a
+        v-if="project.liveVersion !== ''"
         class="project-preview"
         :href="'https://' + project.liveVersion"
         target="_blank"
@@ -29,6 +31,7 @@
         {{ 'Live Version' }}
       </a>
     </div>
+
     <p class="project-description" v-html="project.description"></p>
     <ul class="project-skills">
       <li v-for="(skill, index) in project.skillsApplied" :key="index">
