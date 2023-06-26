@@ -43,7 +43,7 @@ const portfolioJudithSanchez = new Portfolio({
   jobTitle: 'Full Stack Developer',
   github: 'https://github.com/judithsanchez',
   linkedin: 'https://www.linkedin.com/in/judithvsanchezc/',
-  cv: 'https://drive.google.com/file/d/1jc-jhRBAPc5I2kpMImai3Ggey7yi1-5e/view?usp=share_link',
+  cv: 'https://drive.google.com/file/d/1G8blt4w3Weo9UtlSbEizqyG7qSC4Ot4s/view?usp=sharing',
   email: 'judithv.sanchezc@gmail.com',
   skills: [
     'Agile Development',
@@ -114,26 +114,7 @@ const portfolioJudithSanchez = new Portfolio({
         'This version contains the basic logic of a memory matching game using React. But what\'s cool is that <span class="highlight1">it serves as a practice tool for Spanish/English</span>. Each pair shares the same image, <span class="highlight2">but one card has the text in Spanish and the other in English</span>.',
       skillsApplied: ['React', 'MySQL', 'Express', 'API'],
     },
-    {
-      title: 'To-Do List',
-      repository: 'github.com/judithsanchez/to-do-list',
-      livePreview: '',
-      liveVersion: '',
-      description:
-        'Made a to-do list app with <span class="highlight1">full-stack magic</span>, but had to sprinkle some mandatory <span class="highlight2">React on top.</span> Check it out!',
 
-      skillsApplied: ['React.js', 'MySQL', 'Express', 'API'],
-    },
-    {
-      title: 'SheSharp Hackaton 2023',
-      repository: 'github.com/judithsanchez/shesharp-hackathon-2023',
-      livePreview:
-        'loom.com/share/7e78b57101ad4b17adce1ece127655e1?sid=26b866f6-deb3-4d07-9742-bdb7c97d6ad7',
-      liveVersion: 'judithsanchez.github.io/shesharp-hackathon-2023',
-      description:
-        'Choose Your Hunt is a <span class="highlight1">job search engine tailored to help newcomers to tech find remote jobs</span>. Even on days when you\'re not up for the arduous task of finding job postings, we\'ve got you covered. <span class="highlight2">Just tell us how you\'re feeling today, and we\'ll give you actionable advice for your next step</span>.',
-      skillsApplied: ['React.js', 'MySQL', 'Express', 'API'],
-    },
     {
       title: 'My Portfolio',
       repository: 'github.com/judithsanchez/portfolio',
@@ -153,17 +134,6 @@ const portfolioJudithSanchez = new Portfolio({
       description:
         'If you\'re up for a delightful time with <span class="highlight1">the internet royalty (cats, of course)</span> indulge in this charming rendition of <span class="highlight2">the beloved memory game</span>.',
       skillsApplied: ['Javascript', 'HTML', 'CSS', 'Figma'],
-    },
-    {
-      title: 'Hackerrank Problem Solving Challenges',
-      repository: 'github.com/judithsanchez/hackerrank-problem-solving',
-      livePreview:
-        'loom.com/share/4d38159350b841df80f15d427e02803e?sid=6c92d0b6-da2c-4688-912a-1df8a659638f',
-      liveVersion: '',
-      description:
-        'This repository contains <span class="highlight1">my solutions</span> to various problems proposed in <span class="highlight2">Hackerrank</span>.',
-
-      skillsApplied: ['Javascript'],
     },
 
     {
@@ -203,6 +173,17 @@ const portfolioJudithSanchez = new Portfolio({
       skillsApplied: ['JavaScript', 'HTML', 'CSS'],
     },
     {
+      title: 'Hackerrank Problem Solving Challenges',
+      repository: 'github.com/judithsanchez/hackerrank-problem-solving',
+      livePreview:
+        'loom.com/share/4d38159350b841df80f15d427e02803e?sid=6c92d0b6-da2c-4688-912a-1df8a659638f',
+      liveVersion: '',
+      description:
+        'This repository contains <span class="highlight1">my solutions</span> to various problems proposed in <span class="highlight2">Hackerrank</span>.',
+
+      skillsApplied: ['Javascript'],
+    },
+    {
       title: 'Rock, Paper, Scissors',
       repository: 'github.com/judithsanchez/rock-paper-scissors',
       livePreview:
@@ -211,6 +192,26 @@ const portfolioJudithSanchez = new Portfolio({
       description:
         '<span class="highlight1">Rock, Paper, Scissors</span> Game Implementation.',
       skillsApplied: ['JavaScript'],
+    },
+    {
+      title: 'SheSharp Hackaton 2023',
+      repository: 'github.com/judithsanchez/shesharp-hackathon-2023',
+      livePreview:
+        'loom.com/share/7e78b57101ad4b17adce1ece127655e1?sid=26b866f6-deb3-4d07-9742-bdb7c97d6ad7',
+      liveVersion: 'judithsanchez.github.io/shesharp-hackathon-2023',
+      description:
+        'Choose Your Hunt is a <span class="highlight1">job search engine tailored to help newcomers to tech find remote jobs</span>. Even on days when you\'re not up for the arduous task of finding job postings, we\'ve got you covered. <span class="highlight2">Just tell us how you\'re feeling today, and we\'ll give you actionable advice for your next step</span>.',
+      skillsApplied: ['React.js', 'MySQL', 'Express', 'API'],
+    },
+    {
+      title: 'To-Do List',
+      repository: 'github.com/judithsanchez/to-do-list',
+      livePreview: '',
+      liveVersion: '',
+      description:
+        'Made a to-do list app with <span class="highlight1">full-stack magic</span>, but had to sprinkle some mandatory <span class="highlight2">React on top.</span> Check it out!',
+
+      skillsApplied: ['React.js', 'MySQL', 'Express', 'API'],
     },
   ],
 });
