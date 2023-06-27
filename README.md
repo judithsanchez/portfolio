@@ -1,7 +1,7 @@
 # Personal Portfolio
 
-[🔗 Live version](https://www.judithsanchez.com/)
-[🔗 Repository](https://github.com/judithsanchez/portfolio)
+[🎥 Preview](https://www.loom.com/share/dc7d52faab444bb4ade49f1399bf2aa0?sid=0922a7db-0724-4027-bf5c-cadceefbc1a9)
+[🚀 Live](www.judithsanchez.com)
 
 This project is a web application that showcases a personal portfolio and projects section. It features a responsive navigation bar, an about me section, and a projects section to display the creator's work. Additionally, there is an admin access functionality that can be toggled to grant special privileges. The application is designed to provide an interactive and visually appealing experience for users to explore the developer's portfolio.
 
