@@ -12,7 +12,7 @@
         target="_blank"
       >
         <span class="live-icon">🎥</span>
-        {{ 'Live Preview' }}
+        {{ 'Preview' }}
       </a>
       <a
         class="project-repository"
@@ -28,7 +28,7 @@
         target="_blank"
       >
         <span class="live-icon">🚀</span>
-        {{ 'Live Version' }}
+        {{ 'Live' }}
       </a>
     </div>
 
