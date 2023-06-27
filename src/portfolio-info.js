@@ -43,7 +43,7 @@ const portfolioJudithSanchez = new Portfolio({
   jobTitle: 'Full Stack Developer',
   github: 'https://github.com/judithsanchez',
   linkedin: 'https://www.linkedin.com/in/judithvsanchezc/',
-  cv: 'https://drive.google.com/file/d/1G8blt4w3Weo9UtlSbEizqyG7qSC4Ot4s/view?usp=sharing',
+  cv: 'https://drive.google.com/file/d/14ywbAGpVc34hqqI2zgsFB0VH6I1TTu_S/view?usp=sharing',
   email: 'judithv.sanchezc@gmail.com',
   skills: [
     'Agile Development',
