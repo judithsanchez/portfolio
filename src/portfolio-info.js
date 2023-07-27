@@ -95,14 +95,14 @@ const portfolioJudithSanchez = new Portfolio({
       ],
     },
     {
-      title: 'Forever Active (Feature Extension - Bootcamp)',
-      repository: 'github.com/judithsanchez/forever-active',
+      title: 'My Portfolio',
+      repository: 'github.com/judithsanchez/portfolio',
       livePreview:
-        'loom.com/share/50303fc50d1540669966cde0b13a1c86?sid=fc511f2f-7639-4f58-996f-7316c8a48579',
-      liveVersion: '',
+        'loom.com/share/dc7d52faab444bb4ade49f1399bf2aa0?sid=0922a7db-0724-4027-bf5c-cadceefbc1a9',
+      liveVersion: 'judithsanchez.com/',
       description:
-        'Forever Active is a <span class= "highlight1" >full stack fitness web app</span>. Recently, I had the opportunity to contribute to the project by <span class="highlight2">implementing authentication and authorization</span>.',
-      skillsApplied: ['React.js', 'Express', 'MySQL', 'Node.js', 'Bootstrap'],
+        '<span class="highlight1">My own portfolio.</span> I thought that if I was going to showcase my work, <span class="highlight2">I\'d better build it myself.</span>',
+      skillsApplied: ['Vue.js', 'HTML', 'CSS', 'Figma'],
     },
     {
       title: 'Matching Game (MVP - Bootcamp)',
@@ -114,17 +114,27 @@ const portfolioJudithSanchez = new Portfolio({
         'This version contains the basic logic of a memory matching game using React. But what\'s cool is that <span class="highlight1">it serves as a practice tool for Spanish/English</span>. Each pair shares the same image, <span class="highlight2">but one card has the text in Spanish and the other in English</span>.',
       skillsApplied: ['React', 'MySQL', 'Express', 'API'],
     },
-
     {
-      title: 'My Portfolio',
-      repository: 'github.com/judithsanchez/portfolio',
-      livePreview:
-        'loom.com/share/dc7d52faab444bb4ade49f1399bf2aa0?sid=0922a7db-0724-4027-bf5c-cadceefbc1a9',
-      liveVersion: 'judithsanchez.com/',
+      title: 'Crimson Manor (Final Project - Bootcamp)',
+      repository: 'github.com/judithsanchez/murder-mystery',
+      livePreview: '',
+      liveVersion: 'murder-mystery.onrender.com/',
       description:
-        '<span class="highlight1">My own portfolio.</span> I thought that if I was going to showcase my work, <span class="highlight2">I\'d better build it myself.</span>',
-      skillsApplied: ['Vue.js', 'HTML', 'CSS', 'Figma'],
+        "Oh boy, oh boy! <span class='highlight2'>We've got a mystery on our hands!</span> There's been a dastardly murder, and guess what? You're the super sleuth who gets to collect all the clues and nab that sneaky culprit! <span class='highlight1'>It's our fantastically fun final project at the bootcamp!</span>",
+      skillsApplied: ['React', 'MySQL', 'Express', 'API'],
     },
+    {
+      title: 'Forever Active (Feature Extension - Bootcamp)',
+
+      repository: 'github.com/judithsanchez/forever-active',
+      livePreview:
+        'loom.com/share/50303fc50d1540669966cde0b13a1c86?sid=fc511f2f-7639-4f58-996f-7316c8a48579',
+      liveVersion: '',
+      description:
+        'Forever Active is a <span class= "highlight1" >full stack fitness web app</span>. Recently, I had the opportunity to contribute to the project by <span class="highlight2">implementing authentication and authorization</span>.',
+      skillsApplied: ['React.js', 'Express', 'MySQL', 'Node.js', 'Bootstrap'],
+    },
+
     {
       title: 'Michi Memoria',
       repository: 'github.com/judithsanchez/matching-game',
@@ -190,7 +200,7 @@ const portfolioJudithSanchez = new Portfolio({
         'loom.com/share/6a2cb3d162f949a99d2fd98f463ba3fd?sid=8d4bfa0c-0fca-4287-a6e8-b896af615e85',
       liveVersion: '',
       description:
-        '<span class="highlight1">Rock, Paper, Scissors</span> Game Implementation.',
+        '<span class="highlight1">Rock, Paper, Scissors</span> game Implementation.',
       skillsApplied: ['JavaScript'],
     },
     {
