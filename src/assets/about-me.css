@@ -3,7 +3,7 @@
   display: flex;
   flex-flow: column nowrap;
   grid-area: about-me;
-  margin: 4.5rem 2.5rem 0 2.5rem;
+  margin: 3rem 2.5rem 0 2.5rem;
 }
 
 .first-line {
@@ -33,7 +33,7 @@
 .projects-intro {
   font-size: 1.6rem;
   line-height: 200%;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .white-highlight {

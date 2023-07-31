@@ -8,6 +8,11 @@
       I am a <span class="job-title">{{ jobTitle }}</span>
     </h1>
     <p class="about-me-text">
+      Full Stack Developer 🚀 | Multilingual European Citizen 🇪🇺 | Blending
+      Health 💚 & Education Insights with Tech Solutions 📚 | Embracing Remote
+      Collaboration Worldwide since 2016 🌎
+    </p>
+    <p class="about-me-text">
       As a tech enthusiast, I'm passionate about creating solutions through
       code. I have a diverse background that includes studying
       <span class="white-highlight">Physiotherapy</span> and working as an
