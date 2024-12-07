@@ -75,8 +75,21 @@ const portfolioJudithSanchez = new Portfolio({
     'UI/UX Design',
     'Vue',
     'Webpack',
+    'Python'
   ],
   projects: [
+        {
+      title: 'Conventional Commits CLI',
+      repository: 'github.com/judithsanchez/terminal-conventional-commits-script',
+      livePreview:
+        'loom.com/share/36199bc273294c0ca053e99d94aa7535?sid=41a632fb-40f5-44d9-8008-c037f645d9ff',
+      liveVersion: '',
+      description:
+        'Interactive and fun <span class="highlight1">command-line tool</span> for crafting <span class="highlight2">Conventional Commits</span> with ease!',
+      skillsApplied: [
+        'Python',
+      ],
+    },
     {
       title: 'Bocaditos de Español',
       repository: 'github.com/judithsanchez/bocaditosespanol',
@@ -227,3 +240,4 @@ const portfolioJudithSanchez = new Portfolio({
 });
 
 export default portfolioJudithSanchez;
+
