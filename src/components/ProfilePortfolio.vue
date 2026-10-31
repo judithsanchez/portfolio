@@ -4,7 +4,7 @@ const work = [
     company: "Booking.com",
     role: "Software Engineer I",
     dates: "November 2024–present",
-    text: "I build shared AI-assisted workflows for investigation and testing, and help colleagues put the tools to practical use. Alongside that, I work on Java backend systems behind travel recommendations and customer experiences, with some frontend work too.",
+    text: "I champion practical AI adoption within my team and help colleagues across engineering, UX writing and design use it in their work. Alongside that, I develop travel recommendations and rewards across Java backend systems and React/TypeScript interfaces, and help organise a team effort to simplify our codebase.",
     focus: "Practical AI workflows · Java backend · React / TypeScript",
   },
   {
@@ -126,32 +126,32 @@ const approach = [
           </article>
           <details class="workflow">
             <summary>
-              One example: making tricky scenarios easier to test
+              Helping colleagues put AI to work
             </summary>
             <div class="details-body">
               <p>
-                Reproducing a particular scenario locally can be harder than
-                making the code change. I built AI-assisted workflows and
-                fixtures from current dependency models, on top of
-                infrastructure my teammates had already created.
+                A useful tool still needs to fit the work people are doing.
+                I help colleagues find practical uses for AI, build shared
+                engineering workflows and co-lead learning sessions around
+                real tasks. This also brings me into conversations with UX
+                writing and design.
               </p>
               <p>
-                The useful decision was to start from the model the code
-                actually uses. Hardcoded assumptions can go stale as
-                dependencies change. I still need to review the generated data
-                and check the behaviour.
+                The teaching part feels familiar: listen to where someone is
+                getting stuck, work through it together, and give them something
+                they can use on their own. Shared examples and documentation
+                help other colleagues build on what we learn.
               </p>
               <ol class="workflow-steps">
-                <li>Read the current model</li>
-                <li>Build a scenario fixture</li>
-                <li>Validate and review</li>
-                <li>Run the affected scenario</li>
+                <li>Start with a real task</li>
+                <li>Try an approach together</li>
+                <li>Review the result and its limits</li>
+                <li>Share what others can reuse</li>
               </ol>
               <p class="small">
-                A fixture matching a schema does not prove that the scenario is
-                realistic or that the application behaves correctly. This is a
-                description of the approach; employer code and data stay
-                private.
+                These workflows build on my teammates’ work too. AI can help
+                with investigation, testing and maintenance; understanding the
+                system and checking the result remain part of the job.
               </p>
             </div>
           </details>
