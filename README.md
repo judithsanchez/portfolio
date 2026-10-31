@@ -1,40 +1,37 @@
-# 🌟 Personal Portfolio
+# Judith Sánchez portfolio
 
-Welcome to my **Personal Portfolio** project! This web application showcases my work, highlights my skills, and offers an interactive platform to explore my journey as a developer. 🚀
+My professional website, built with Vue 3 and Vite. It introduces my software engineering work at Booking.com and Toptal, the teaching story that got me into coding, and two earlier personal projects.
 
-[🎥 **Preview Video**](https://www.loom.com/share/dc7d52faab444bb4ade49f1399bf2aa0?sid=0922a7db-0724-4027-bf5c-cadceefbc1a9)  
-[🌍 **Live Demo**](https://www.judithsanchez.com/)
+## Develop locally
 
-## ✨ Features
-- **Responsive Design**: Ensures a seamless experience across all devices. 📱💻
-- **Interactive Navigation**: Easy-to-use navigation bar to explore different sections.
-- **About Me Section**: Learn more about my background and passions.
-- **Projects Showcase**: Highlights my work with detailed descriptions and visuals.
-- **Custom Built**: Designed and developed from scratch using modern tools and techniques.
+```bash
+npm ci
+npm run dev -- --host 127.0.0.1
+```
 
-## 🎯 Why This Project?
-After exploring numerous WordPress and Elementor templates, I decided to build my own portfolio from scratch to:
-1. Showcase my work in a unique and personalized way. ✨
-2. Practice and refine my skills with **Vue.js** and responsive design. 💪
-3. Complete a task during my Full-Stack Development Bootcamp with a custom login feature.
+## Build and preview
 
-## 🛠️ Built With
-- **Vue.js**: Front-end framework for dynamic and interactive UI.
-- **Vite**: For fast and optimized development.
-- **HTML5 & CSS3**: Core structure and styling.
-- **Git**: Version control.
-- **Responsive Design**: Mobile-first approach for accessibility.
+```bash
+npm run build
+npm run preview -- --host 127.0.0.1
+```
 
+The repository has no configured test or lint script. A production build checks bundling; keyboard, layout and content checks remain separate.
 
-## 🔍 Keywords
-Vue.js, CSS3, HTML5, Vite, Git, responsive design, portfolio, web development.
+## Content and assets
 
-## 🧑‍💻 Future Improvements
-- Implement persistent changes for the admin login feature.
-- Add animations for smoother transitions between sections.
-- Expand the projects section with detailed case studies.
+- `src/components/ProfilePortfolio.vue`: profile text, work history, project details and contact links.
+- `src/assets/revamp.css`: responsive styles, focus states and reduced-motion support.
+- `public/judith-sanchez-cv.pdf`: downloadable CV.
+- `public/social-preview.png`: sharing image.
+- `index.html`: page title, description, canonical URL and social metadata.
 
----
+Earlier components and project data remain in source as history, but are no longer mounted by the application. The previous in-memory admin interface is not part of the public page.
 
-Thank you for checking out my portfolio! 🌟 I’d love to hear your thoughts and feedback. 😊
+Bocaditos and Scoutly are past, unmaintained projects. Their links point to source, not promised working demos. Personal apps hosted on my Raspberry Pi are not exposed here.
 
+## Deployment
+
+The GitHub Pages workflow deploys pushes to `master` to https://www.judithsanchez.com/.
+
+Before release, verify the built site, its CV and social image, the source links, and desktop/mobile keyboard navigation. After release, verify the live URL and file links. Reverting a release also requires a deliberate commit and deployment.
